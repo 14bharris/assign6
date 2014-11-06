@@ -37,7 +37,7 @@ else if(n === 1){
         } 
     }
 var output = document.getElementById('final');
-output.innerHTML = 'Your triangular number is: ' + result;
+output.innerHTML = 'Your fibonacci number is: ' + result;
 }
 var button = document.getElementById('run');
 button.onclick = fibonacci;
